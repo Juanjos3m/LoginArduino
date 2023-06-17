@@ -54,8 +54,8 @@ void loop() {
           lcd.setCursor(0, 1);
           lcd.print("Correcta");
           delay(1000);
-          color(0,255, 0); // turn the RGB LED green
-          delay(1000); // delay for 1 second
+          color(0,255, 0); // Led verde
+          delay(1000);
           lcd.clear();
           count = 3;
           bandera = true;
@@ -68,8 +68,8 @@ void loop() {
           lcd.print("Incorrecta");
           count = count + 1;
           delay(1000);
-          color(255, 0, 0); // turn the RGB LED red 
-          delay(1000); // delay for 1 second 
+          color(255, 0, 0); // Led rojo
+          delay(1000); 
           lcd.clear();
           if(count < 3){
               lcd.setCursor(0, 0);
@@ -86,8 +86,8 @@ void loop() {
           lcd.setCursor(0, 1);
           lcd.print("bloqueado");
           delay(1000);
-          color(0, 0, 255); // turn the RGB LED blue 
-          delay(1000); // delay for 1 second 
+          color(0, 0, 255); // Led azul
+          delay(1000);
       }
     }
     
